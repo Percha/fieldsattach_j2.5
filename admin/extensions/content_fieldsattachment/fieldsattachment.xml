@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<extension version="1.6.0" type="plugin"  method="upgrade" group="content">
+	<name>Content - Fieldsattach content</name>
+	<author>Cristian Grañó Reder</author>
+	<creationDate>December 2, 2011</creationDate>
+	<copyright>(C) 2010 Cristian Grañó Reder. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>cristian@percha.com</authorEmail>
+	<authorUrl>http://www.percha.com</authorUrl>
+	<version>2.0</version>
+	<description>PERCHA field ATTACHMENT PLUGIN INSTALLED</description> 
+	<files>
+		<filename plugin="fieldsattachment">fieldsattachment.php</filename>
+	</files>
+	<config>
+	<fields name="params">
+	<fieldset name="basic">
+            
+        <field name="htmlfieldsattachwrapper" type="radio" default="0" label="HTML wrapper Fieldsattach" description="Do you want a WRAPPER DIV for a all fieldsattach">
+ 		<option value="0">No</option>
+ 		<option value="1">Yes</option>
+	</field>
+        
+	<field name="htmlwrapper" type="radio" default="0" label="HTML wrapper group" description="Do you want a WRAPPER DIV for a groups.">
+ 		<option value="0">No</option>
+ 		<option value="1">Yes</option>
+	</field>
+        
+	</fieldset>
+	</fields>
+	</config> 
+</extension>
