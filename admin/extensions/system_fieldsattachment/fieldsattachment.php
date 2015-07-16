@@ -1615,10 +1615,10 @@ class plgSystemfieldsattachment extends JPlugin
                             
                         }else{
                             //insert
-                             $query = 'INSERT INTO #__fieldsattach_values(articleid,fieldsid,value) VALUES ('.$newid.',\''.  $result->fieldsid .'\',\''.$result->value.'\' )     ';
-                             $db->setQuery($query);
+                             //$query = 'INSERT INTO #__fieldsattach_values(articleid,fieldsid,value) VALUES ('.$newid.',\''.  $result->fieldsid .'\',\''.$result->value.'\' )     ';
+                             //$db->setQuery($query);
                              //echo "<br>".$query;
-                             $db->query();
+                             //$db->query();
                         }
                         
                     }
